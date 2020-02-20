@@ -1,0 +1,322 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+// a {
+//     // text-decoration: none;
+//     // color: #fff;
+// }
+ul{
+    list-style: none;
+}
+table {
+    width: 100%;
+  }
+.mat-elevation-z8 {
+    box-shadow: none;
+}
+mat-row {
+    padding: 15px 0;
+}
+::-webkit-input-placeholder {
+    font-size: 12px;
+    color:#bbb;
+}
+::-moz-placeholder {
+    color:#bbb;
+}
+:-ms-input-placeholder {
+    color:#bbb;
+}
+.placeholderBigger ::-webkit-input-placeholder {
+    font-size: 17px;
+    color:#777;
+}
+select:required:invalid {
+    color: #666;
+    }
+    option[value=""][disabled] {
+    display: none;
+    }
+    option {
+    color: #000;
+    }
+mat-card li {
+    display: inline-block;
+}
+.wrapper a {
+    text-decoration: none;
+}
+.header {
+    height: 150px;
+    background-color: #09f;
+    color: #fff;
+    position: relative;
+    margin-bottom: 25px;
+    box-shadow: 1px 2px 3px 1px rgba(122, 122, 122, .2)
+}
+.header_grp {
+    margin: 50px 0 0 50px;
+    position: absolute;
+}
+.header_h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+mat-card {
+    margin: 0 auto;
+    max-width: 1400px;
+    margin-bottom: 40px;
+    // padding-bottom: 30px;
+}
+
+.btn_search {
+    margin-right: 20px;
+    background-color: #09f;
+    color: #fff;
+    padding: 0 20px;
+}
+.btn_reset {
+    color: #666;
+    padding: 0 30px;
+}
+.btn_add {
+    background-color: #09f;
+    color: #fff;
+}
+.main {
+    max-width: 1200px;
+    min-width: 400px;
+    overflow: hidden;
+    text-align: justify;
+    .newOne {
+        display: inline-block;
+        // margin-right: 50px
+    }
+}
+mat-card-content {
+    margin-bottom: 0;
+}
+mat-form-field {
+   margin-right: 20px;
+}
+mat-label {
+    font-size: 17px;
+}
+.mat-form-field-infix  {
+    width: 225px;
+}
+.card-action-add {
+    position: absolute;
+    right: 25px;
+    top: 5px;
+    // padding-left: 20px;
+}
+// .listOfNotices {
+//     padding: 20px;
+//     padding-right: 0;
+// }
+
+
+.input {
+    &1,&2,&3 {
+        width: 260px;
+        padding-top: .4em;
+    }
+    &4, &5, &6, &7, &8, &9, &10{
+        padding-top: 1.25em;
+    }
+    &4 {
+        width: 80px;
+    }
+
+    &5 {
+        width: 100px;
+    }
+
+    &6 {
+        width: 175px;
+    }
+    &7 {
+        width: 90px;
+    }
+    &8, &9, &10 {
+        width: 170px;
+    }
+
+    
+
+
+}
+
+.fieldContent {
+    margin-top: 30px;
+    // border-bottom: 1px #aaa solid;
+    padding-left: 20px;
+}
+.alignCenter {
+    text-align: center;
+}
+.fieldPort-margin {
+    width: 250px;
+    margin-right: 161px;
+}
+.mat-column-pkNotice {
+    word-wrap: break-word !important;
+    white-space: unset !important;
+    flex: 0 0 8% !important;
+    width: 8% !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  
+    word-break: break-word;
+  
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  
+  .mat-column-imo {
+    word-wrap: break-word !important;
+    white-space: unset !important;
+    flex: 0 0 10% !important;
+    width: 10% !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  
+    word-break: break-word;
+  
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  
+  .mat-column-name {
+    word-wrap: break-word !important;
+    white-space: unset !important;
+    flex: 0 0 17% !important;
+    width: 17% !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  
+    word-break: break-word;
+  
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  
+  .mat-column-portCode {
+    word-wrap: break-word !important;
+    white-space: unset !important;
+    flex: 0 0 9% !important;
+    width: 9% !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  
+    word-break: break-word;
+  
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  .mat-column-comeDate {
+    word-wrap: break-word !important;
+    white-space: unset !important;
+    flex: 0 0 16% !important;
+    width: 16% !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  
+    word-break: break-word;
+  
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  .mat-column-decisionAdmin {
+    word-wrap: break-word !important;
+    white-space: unset !important;
+    flex: 0 0 16% !important;
+    width: 16% !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  
+    word-break: break-word;
+  
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  .mat-column-timeoutDocuments {
+    word-wrap: break-word !important;
+    white-space: unset !important;
+    flex: 0 0 15% !important;
+    width: 15% !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  
+    word-break: break-word;
+  
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  .mat-column-editDelete {
+    word-wrap: break-word !important;
+    white-space: unset !important;
+    flex: 0 0 5% !important;
+    width: 5% !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  
+    word-break: break-word;
+  
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  mat-cell a {
+      color: #f01;
+  }
+.miniIcons {
+    margin-right: 2px;
+    // font-size: 1px;
+    i {
+        font-size: 22px;
+    }
+    &Set {
+        margin-left: 5px;
+        color: #fff; 
+        background-color: #0fa; 
+        width: 23px;
+        height: 23px;      
+        i {
+            font-size: 18px;
+            position: absolute;
+            left: 2px;
+            top: 1px;
+        }
+    }
+    &Denied {
+        margin-left: 5px;
+        color: #fff; 
+        background-color: #f50; 
+        width: 23px;
+        height: 23px;      
+        i {
+            font-size: 18px;
+            position: absolute;
+            left: 2px;
+            top: 1px;
+        }
+    }
+}

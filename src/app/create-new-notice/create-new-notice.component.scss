@@ -1,0 +1,443 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+// a {
+//     // text-decoration: none;
+//     // color: #fff;
+// }
+ul{
+    list-style: none;
+}
+table {
+    width: 100%;
+  }
+.mat-elevation-z8 {
+    box-shadow: none;
+}
+mat-row {
+    padding: 5px 0;
+}
+mat-header-row{
+    border-top: 1px solid #ddd;
+}
+::-webkit-input-placeholder {
+    font-size: 12px;
+    color:#bbb;
+}
+::-moz-placeholder {
+    color:#bbb;
+}
+:-ms-input-placeholder {
+    color:#bbb;
+}
+.placeholderBigger ::-webkit-input-placeholder {
+    font-size: 17px;
+    color:#777;
+}
+select:required:invalid {
+    color: #666;
+    }
+    option[value=""][disabled] {
+    display: none;
+    }
+    option {
+    color: #000;
+    }
+mat-card li {
+    display: inline-block;
+}
+.wrapper a {
+    text-decoration: none;
+    color:#fff;
+}
+.header {
+    height: 150px;
+    background-color: #09f;
+    color: #fff;
+    position: relative;
+    margin-bottom: 25px;
+    box-shadow: 1px 2px 3px 1px rgba(122, 122, 122, .2)
+}
+.header_grp {
+    margin: 50px 0 0 50px;
+    position: absolute;
+}
+.header_h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+mat-card {
+    margin: 0 auto;
+    max-width: 1400px;
+    margin-bottom: 40px;
+    // padding-bottom: 30px;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-bottom: 0;
+}
+
+.btn_search {
+    margin-right: 20px;
+    background-color: #09f;
+    color: #fff;
+    padding: 0 20px;
+}
+.btn_reset {
+    color: #666;
+    padding: 0 30px;
+}
+.btn_add {
+    background-color: #09f;
+    color: #fff;
+    &W {
+        background-color: #fff;
+        color: #222;
+        margin-right: 10px;
+    }
+}
+.main {
+    max-width: 1200px;
+    min-width: 400px;
+    overflow: hidden;
+    text-align: justify;
+    .newOne {
+        display: inline-block;
+        // margin-right: 50px
+    }
+    &Step {
+        margin-top: 20px;
+        position: relative;
+        height: 50px;
+    }
+}
+mat-card-content {
+    margin-bottom: 0;
+    margin-top: 20px;
+    padding-bottom: 0;
+    position: relative;
+    
+}
+mat-card-title {
+    margin-top: 10px;
+}
+mat-form-field {
+   margin-right: 20px;
+}
+mat-label {
+    font-size: 17px;
+}
+.mat-form-field-infix  {
+    width: 225px;
+}
+.card-action-add {
+    font-size: 17px;
+    position: absolute;
+    right: 25px;
+    color: #555;
+    top: 20px;
+}
+
+
+.input {
+    &11, &12,&13 {
+        width: 260px;
+        padding-top: .4em;
+    }
+
+    &11 {
+        width: 500px;
+    }
+    &13 {
+        width: 150px;
+    }
+    &14 {
+        width: 210px;
+    }
+
+
+    &15, &16, &17, &18, &19, &20, &21, &22 {
+        width: 280px;
+    }
+    &23 {
+        width: 310px;
+        margin-right: 50px;
+    }
+    &24 {
+        width: 400px;
+        margin-right: 100px;
+    }
+    &25, &25 {
+        width: 300px;
+    }
+    &26, &27, &28, &29, &30, &31 {
+        width: 255px;
+    }
+    &32, &33 {
+        width: 300px;
+        margin-right: 75px;
+    }
+    &33 {
+        margin-right: 120px;
+    }
+    &34 {
+        width: 150px;
+    }
+    &35 {
+        width: 945px;
+        padding-bottom: 0;
+    }
+}
+
+
+.mat-column-terminal, .mat-column-dateOfCome, .mat-column-dateOfExit  {
+    word-wrap: break-word !important;
+    white-space: unset !important;
+    flex: 0 0 30% !important;
+    width: 30% !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  
+    word-break: break-word;
+  
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  
+  
+  .mat-column-editDelete {
+    word-wrap: break-word !important;
+    white-space: unset !important;
+    flex: 0 0 10% !important;
+    width: 10% !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  
+    word-break: break-word;
+  
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  // второй степпер
+  .mat-column-loading  {
+    word-wrap: break-word !important;
+    white-space: unset !important;
+    flex: 0 0 20% !important;
+    width: 20% !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  
+    word-break: break-word;
+  
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  .mat-column-statusOfCargo {
+    word-wrap: break-word !important;
+    white-space: unset !important;
+    flex: 0 0 20% !important;
+    width: 20% !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  
+    word-break: break-word;
+  
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  .mat-column-nameOfCargo  {
+    word-wrap: break-word !important;
+    white-space: unset !important;
+    flex: 0 0 35% !important;
+    width: 35% !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  
+    word-break: break-word;
+  
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  .mat-column-grossWeight  {
+    word-wrap: break-word !important;
+    white-space: unset !important;
+    flex: 0 0 15% !important;
+    width: 15% !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  
+    word-break: break-word;
+  
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+
+
+.typeOfDeclare {
+    font-size: 17px;
+    position: absolute;
+    right: 30px;
+    color: #555;
+    top: 20px;
+    
+}
+.mat-slide-toggle-bar {
+    background-color: rgba(0,0,0,.2);
+}
+
+mat-slide-toggle {
+    color: #777;
+    font-size: 17px;
+    margin-top: 15px;
+    float: right;
+    margin-right: 35px;
+}
+.mat-stepper-horizontal {
+    position: relative;
+}
+
+
+.card-action-addTerm {
+
+    float: right;
+    margin-right: 30px;
+}
+
+.btn-group {
+    float: left;
+    margin-top: 20px;
+    &WM {
+        margin-top: 0;
+    }
+}
+mat-paginator {
+    float: right;
+}
+.paginator_marginT {
+    margin-top: -10px;
+}
+
+@media (max-width: 865px) {
+    mat-slide-toggle {
+        float: left;
+        margin-top: 0;
+    }
+    .mat-column-terminal, .mat-column-dateOfCome, .mat-column-dateOfExit  {
+        word-wrap: break-word !important;
+        white-space: unset !important;
+        flex: 0 0 25% !important;
+        width: 25% !important;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+      
+        word-break: break-word;
+      
+        -ms-hyphens: auto;
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+      }
+      .mat-column-editDelete {
+        word-wrap: break-word !important;
+        white-space: unset !important;
+        flex: 0 0 20% !important;
+        width: 20% !important;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+      
+        word-break: break-word;
+      
+        -ms-hyphens: auto;
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+      }
+
+      .mat-column-nameOfCargo  {
+        word-wrap: break-word !important;
+        white-space: unset !important;
+        flex: 0 0 28% !important;
+        width: 28% !important;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+      
+        word-break: break-word;
+      
+        -ms-hyphens: auto;
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+      }
+  }
+@media (max-width: 640px) {
+    .mat-card-actions {
+        float: left;
+        margin-left: 10px;
+    }
+    .mainStep {
+        height: 85px;
+    }
+    mat-table {
+        margin-top: 10px;
+    }
+     .mat-column-dateOfCome, .mat-column-dateOfExit  {
+        word-wrap: break-word !important;
+        white-space: unset !important;
+        flex: 0 0 35% !important;
+        width: 35% !important;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+      
+        word-break: break-word;
+      
+        -ms-hyphens: auto;
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+      }
+    .mat-column-terminal {
+        word-wrap: break-word !important;
+        white-space: unset !important;
+        flex: 0 0 18% !important;
+        width: 18% !important;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+      
+        word-break: break-word;
+      
+        -ms-hyphens: auto;
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+      }
+      .mat-column-editDelete {
+        word-wrap: break-word !important;
+        white-space: unset !important;
+        flex: 0 0 12% !important;
+        width: 12% !important;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+      
+        word-break: break-word;
+      
+        -ms-hyphens: auto;
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+      }
+      ng-container button.miniIcons.mat-icon-button.mat-button-base {
+          width: 23px !important;
+      }
+  }

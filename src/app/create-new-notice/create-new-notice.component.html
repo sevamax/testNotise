@@ -1,0 +1,310 @@
+<div class="wrapper">
+    <div class="content">
+        <div class="header">
+            <div class="header_grp">
+                <h1 class="header_h1">Нотiс</h1>
+                <h3 class="header_h3"><a>Агент</a> &gt; <a [routerLink]="['/']" >Нотiс</a> &gt; Редагування документа</h3>
+
+            </div>
+            
+        </div>
+
+<mat-card class="main">
+    <mat-card-title class="newOne">Деталі судна</mat-card-title>
+    <p align="end" class="newOne typeOfDeclare">Тип декларації: 002</p>
+    <mat-card-content class="main fieldContent">
+        <mat-form-field floatLabel="always" class="input11">
+            <mat-label>Назва судна</mat-label>
+            <input   matInput placeholder="Титаник">
+        </mat-form-field>
+        <mat-form-field floatLabel="always" class="fieldPort-margin input12">
+            <mat-label style="width: 225px">Тип судна</mat-label>
+            <mat-select   >
+                <!-- <mat-option value="" selected disabled></mat-option> -->
+                <mat-option value="buksir" selected disabled> Буксир </mat-option>
+                <mat-option value="tanker">Танкер</mat-option>
+                <mat-option value="parom">Паром</mat-option>
+                <mat-option value="gasovoz">Газовоз</mat-option>
+                <mat-option value="balker">Балкер </mat-option>
+                <mat-option value="containerovoz">Контейнеровоз</mat-option>
+            </mat-select>
+          </mat-form-field>
+        <mat-form-field floatLabel="always" class="input13">
+            <mat-label>Номер ІМО</mat-label>
+            <input  matInput placeholder="12345">
+        </mat-form-field>
+        <mat-form-field floatLabel="always" class="fieldPort-margin input14">
+            <mat-label style="width: 225px">Прапор</mat-label>
+            <mat-select  >
+                <mat-option value="" selected disabled></mat-option>
+                <mat-option value="buksir"> Україна </mat-option>
+                <mat-option value="tanker">Турція</mat-option>
+                <mat-option value="parom">Австралія</mat-option>
+                <mat-option value="gasovoz">Франція</mat-option>
+                <mat-option value="balker">Росія</mat-option>
+                <mat-option value="containerovoz">Німеччина</mat-option>
+            </mat-select>
+          </mat-form-field>
+        <mat-form-field floatLabel="always" class="input15">
+            <mat-label>Довжина судна</mat-label>
+            <input  matInput placeholder="12345">
+        </mat-form-field>
+        <mat-form-field floatLabel="always" class="input16">
+            <mat-label>Ширина судна</mat-label>
+            <input  matInput placeholder="12345">
+        </mat-form-field>
+        <mat-form-field floatLabel="always" class="input17">
+            <mat-label>Чиста місткість судна</mat-label>
+            <input  matInput placeholder="12345">
+        </mat-form-field>
+        <mat-form-field floatLabel="always" class="input18">
+            <mat-label>Висота борту судна</mat-label>
+            <input  matInput placeholder="12345">
+        </mat-form-field>
+        <mat-form-field floatLabel="always" class="input19">
+            <mat-label>Осадка (ніс)</mat-label>
+            <input  matInput placeholder="12345">
+        </mat-form-field>
+        <mat-form-field floatLabel="always" class="input20">
+            <mat-label>Осадка (корма)</mat-label>
+            <input  matInput placeholder="12345">
+        </mat-form-field>
+        <mat-form-field floatLabel="always" class="input21">
+            <mat-label>Осадка (корма) на вихід</mat-label>
+            <input  matInput placeholder="12345">
+        </mat-form-field>
+        <mat-form-field floatLabel="always" class="input22">
+            <mat-label>Осадка (ніс) на вихід</mat-label>
+            <input  matInput placeholder="12345">
+        </mat-form-field>
+        <mat-form-field floatLabel="always" class="fieldPort-margin input23">
+            <mat-label style="width: 225px">Лінія закордонного плавання</mat-label>
+            <mat-select  >
+                <mat-option value="" selected disabled></mat-option>
+                <mat-option value="BLACKSEAEXPRESS">BLACK SEA EXPRESS</mat-option>
+                <mat-option value="BLACK SEA EXPRESS 1">BLACK SEA EXPRESS 1</mat-option>
+                <mat-option value="BOSPHORUS EXPRESS">BOSPHORUS EXPRESS</mat-option>
+                <mat-option value="INTRA Black Sea Express">INTRA Black Sea Express</mat-option>
+                <mat-option value="MARMARA CENK LINE">MARMARA CENK LINE</mat-option>
+                <mat-option value="CONTI-HORIZON LINE">CONTI-HORIZON LINE</mat-option>
+                <mat-option value="FERRO LINE">FERRO LINE</mat-option>
+                <mat-option value="FAYETTE LINE SERVICES">FAYETTE LINE SERVICES</mat-option>
+                <mat-option value="«EMES Feedering S.R.L.»">«EMES Feedering S.R.L.»</mat-option>
+                <mat-option value="«NOVAMAR LINE»">«NOVAMAR LINE»</mat-option>
+                <mat-option value="«NEPTUNE LINES»"> «NEPTUNE LINES»</mat-option>
+                <mat-option value="«ME3-3»">«ME3-3»</mat-option>
+            </mat-select>
+          </mat-form-field>
+          <mat-form-field floatLabel="always" class="fieldPort-margin input24">
+            <mat-label style="width: 225px">Мета заходу</mat-label>
+            <mat-select  >
+                <mat-option value="" selected disabled></mat-option>
+                <mat-option value="passanger"> Перевезення пасажирів </mat-option>
+                <mat-option value="goods">Перевезення товару</mat-option>
+                <mat-option value="stop">Зупинка</mat-option>
+                <mat-option value="gasovoz"></mat-option>
+                <mat-option value="balker"></mat-option>
+                <mat-option value="containerovoz"></mat-option>
+            </mat-select>
+          </mat-form-field>
+          <mat-slide-toggle color="primary" style="margin-bottom: 10px;">Наявність вантажу на борту</mat-slide-toggle>
+    </mat-card-content>
+</mat-card>
+
+<mat-card class="main">
+    <mat-horizontal-stepper linear>
+        <mat-step label="Порт заходу"  >
+            <mat-form-field floatLabel="always"  class="fieldPort-margin input25">
+                <mat-label style="width: 225px">Порт заходу</mat-label>
+                <mat-select  >
+                    <mat-option value="" selected disabled></mat-option>
+                    <mat-option value="passanger"> ОФ АМПУ </mat-option>
+                    <mat-option value="goods">Одесса</mat-option>
+                    <mat-option value="stop">Черноморск</mat-option>
+                    <mat-option value="gasovoz">Южный</mat-option>
+                    <mat-option value="balker">Николаев</mat-option>
+                    <mat-option value="containerovoz">Бердянск</mat-option>
+                </mat-select>
+              </mat-form-field>
+              <mat-form-field floatLabel="always" class="placeholderBigger input26">
+                <mat-label>Дата і час приходу</mat-label>
+                <input matInput placeholder="23.02.2020" [matDatepicker]="timecomeDatePicker">
+                <mat-datepicker-toggle [for]="timecomeDatePicker" matSuffix></mat-datepicker-toggle>
+                <mat-datepicker #timecomeDatePicker></mat-datepicker>
+            </mat-form-field>
+            <mat-form-field floatLabel="always" class="placeholderBigger input27">
+                <mat-label>Дата і час виходу</mat-label>
+                <input matInput placeholder="23.02.2020" [matDatepicker]="timegoDatePicker">
+                <mat-datepicker-toggle [for]="timegoDatePicker" matSuffix></mat-datepicker-toggle>
+                <mat-datepicker #timegoDatePicker></mat-datepicker>
+            </mat-form-field>
+            <mat-form-field floatLabel="always" class="fieldPort-margin input28">
+                <mat-label style="width: 225px">Останній порт заходу</mat-label>
+                <mat-select  >
+                    <mat-option value="" selected disabled></mat-option>
+                    <mat-option value="ukraine"> Україна </mat-option>
+                    <mat-option value="turkey">Турція</mat-option>
+                    <mat-option value="usa">США</mat-option>
+                    <mat-option value="france">Франція</mat-option>
+                    <mat-option value="egypt">Египет</mat-option>
+                    <mat-option value="italy">Італія</mat-option>
+                </mat-select>
+              </mat-form-field>
+              <div class="main mainStep">
+                <mat-card-title class="newOne" >Список позицій в порту судна</mat-card-title>
+                    <mat-card-actions align="end" class="newOne card-action-addTerm" >
+                        <button mat-raised-button matStepperNext class="btn_add" (click)="addTerminal()">Додати термінал</button>
+                    </mat-card-actions>
+                </div>
+                    <mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+                        <!-- terminal Column -->
+                        <ng-container matColumnDef="terminal">
+                          <mat-header-cell *matHeaderCellDef>Термінал</mat-header-cell>
+                          <mat-cell *matCellDef="let element"> {{element.terminal}} </mat-cell>
+                        </ng-container>
+                      
+                        <!-- dateOfCome Column -->
+                        <ng-container matColumnDef="dateOfCome">
+                          <mat-header-cell *matHeaderCellDef> Дата лейкен приходу </mat-header-cell>
+                          <mat-cell *matCellDef="let element"> {{element.dateOfCome}} </mat-cell>
+                        </ng-container>
+                      
+                        <!-- dateOfExit Column -->
+                        <ng-container matColumnDef="dateOfExit">
+                          <mat-header-cell *matHeaderCellDef> Дата лейкен виходу </mat-header-cell>
+                          <mat-cell *matCellDef="let element"> {{element.dateOfExit}} </mat-cell>
+                        </ng-container>
+                  
+                        <ng-container matColumnDef="editDelete">
+                            <mat-header-cell *matHeaderCellDef></mat-header-cell>
+                            <mat-cell *matCellDef="let element"> 
+                            <button matStepperNext mat-icon-button  style="color: #09f" class="miniIcons">
+                                 <i class="material-icons"> edit </i>
+                            </button>
+                            <button (click)="openDialogDelete()" mat-icon-button  style="color: #f00" class="miniIcons">
+                                 <i class="material-icons"> delete </i>
+                            </button>
+                            </mat-cell>
+                        </ng-container>
+
+                        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+                        <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+                      </mat-table>
+                      <mat-paginator  [pageSizeOptions] = "[5, 10, 20]" ></mat-paginator>
+        </mat-step>
+
+        <mat-step label="Позиція в порту судна"   >
+            <mat-form-field floatLabel="always" class="fieldPort-margin input29" >
+                <mat-label >Термінал</mat-label>
+                <mat-select  >
+                    <mat-option value="" selected disabled></mat-option>
+                    <mat-option value="passanger"> ОФ АМПУ </mat-option>
+                    <mat-option value="goods">Одесса</mat-option>
+                    <mat-option value="stop">Черноморск</mat-option>
+                    <mat-option value="gasovoz">Южный</mat-option>
+                    <mat-option value="balker">Николаев</mat-option>
+                    <mat-option value="containerovoz">Бердянск</mat-option>
+                </mat-select>
+              </mat-form-field>
+              <mat-form-field floatLabel="always" class="placeholderBigger input30">
+                <mat-label>Дата лейкен приходу</mat-label>
+                <input matInput placeholder="23.02.2020" [matDatepicker]="dateOfCome">
+                <mat-datepicker-toggle [for]="dateOfCome" matSuffix></mat-datepicker-toggle>
+                <mat-datepicker #dateOfCome></mat-datepicker>
+            </mat-form-field>
+            <mat-form-field floatLabel="always" class="placeholderBigger input31">
+                <mat-label>Дата лейкен виходу</mat-label>
+                <input matInput placeholder="23.02.2020" [matDatepicker]="dateOfExit">
+                <mat-datepicker-toggle [for]="dateOfExit" matSuffix></mat-datepicker-toggle>
+                <mat-datepicker #dateOfExit></mat-datepicker>
+            </mat-form-field>
+            <div class="main mainStep">
+                <mat-card-title class="newOne" >Список операцій з вантажем </mat-card-title>
+                    <mat-card-actions align="end" class="newOne card-action-addTerm" >
+                        <button mat-raised-button matStepperNext class="btn_add" (click)="addTerminal()">Додати операцію</button>
+                    </mat-card-actions>
+                </div>
+                    <mat-table [dataSource]="dataSource2" class="mat-elevation-z8">
+                        <!-- loading Column -->
+                        <ng-container matColumnDef="loading">
+                          <mat-header-cell *matHeaderCellDef>Вивантаження/Навантаження</mat-header-cell>
+                          <mat-cell *matCellDef="let element"> {{element.loading}} </mat-cell>
+                        </ng-container>
+                      
+                        <!-- statusOfCargo Column -->
+                        <ng-container matColumnDef="statusOfCargo">
+                          <mat-header-cell *matHeaderCellDef> Статус вантажу </mat-header-cell>
+                          <mat-cell *matCellDef="let element"> {{element.statusOfCargo}} </mat-cell>
+                        </ng-container>
+                      
+                        <!-- nameOfCargo Column -->
+                        <ng-container matColumnDef="nameOfCargo">
+                          <mat-header-cell *matHeaderCellDef> Найменування вантажу </mat-header-cell>
+                          <mat-cell *matCellDef="let element"> {{element.nameOfCargo}} </mat-cell>
+                        </ng-container>
+                        
+                        <!-- grossWeight Column -->
+                        <ng-container matColumnDef="grossWeight">
+                          <mat-header-cell *matHeaderCellDef> Вага брутто </mat-header-cell>
+                          <mat-cell *matCellDef="let element"> {{element.grossWeight}} </mat-cell>
+                        </ng-container>
+                  
+                        <ng-container matColumnDef="editDelete">
+                            <mat-header-cell *matHeaderCellDef></mat-header-cell>
+                            <mat-cell *matCellDef="let element"> 
+                            <button matStepperNext mat-icon-button  style="color: #09f; " class="miniIcons">
+                                 <i class="material-icons"> edit </i>
+                            </button>
+                            <button (click)="openDialogDelete()" mat-icon-button  style="color: #f00; " class="miniIcons">
+                                 <i class="material-icons"> delete </i>
+                            </button>
+                            </mat-cell>
+                        </ng-container>
+
+                        <mat-header-row *matHeaderRowDef="displayedColumns2"></mat-header-row>
+                        <mat-row *matRowDef="let row; columns: displayedColumns2;"></mat-row>
+                      </mat-table>
+                      <mat-paginator  [pageSizeOptions] = "[5, 10, 20]" ></mat-paginator>
+                      <div class="btn-group">
+                          <button mat-raised-button class="btn_add btn_addW" matStepperPrevious>Назад</button>
+                          <button mat-button class="btn_add" matStepperPrevious>Зберегти позицію в порту</button>
+                      </div>
+        </mat-step>
+        <mat-step label="Операція з вантажем" completed=false>
+            <mat-form-field floatLabel="always" class="fieldPort-margin input32">
+                <mat-label >Вивантаження/Навантаження</mat-label>
+                <mat-select  >
+                    <mat-option value="" selected disabled></mat-option>
+                    <mat-option value="loading">  Навантаження </mat-option>
+                    <mat-option value="unloading">Вивантаження </mat-option>
+                </mat-select>
+              </mat-form-field>
+              <mat-form-field floatLabel="always" class="fieldPort-margin input33">
+                <mat-label >Статус вантажу</mat-label>
+                <mat-select  >
+                    <mat-option value="" selected disabled></mat-option>
+                    <mat-option value="passanger"> Внутренний транзит ЕС </mat-option>
+                    <mat-option value="goods">Внутренний транзит Украина</mat-option>
+                </mat-select>
+              </mat-form-field>
+              <mat-form-field floatLabel="always" class="input34">
+                <mat-label>Вага брутто</mat-label>
+                <input  matInput placeholder="12345">
+            </mat-form-field>
+            <mat-form-field floatLabel="always" class="input35">
+                <mat-label>Найменування вантажу</mat-label>
+                <input  matInput placeholder="Зернові">
+            </mat-form-field>
+            <mat-paginator class="paginator_marginT" [pageSizeOptions] = "[5, 10, 20]" ></mat-paginator>
+            <div class="btn-group btn-groupWM">
+                <button mat-raised-button class="btn_add btn_addW" matStepperPrevious>Назад</button>
+                <button mat-button class="btn_add" matStepperPrevious>Зберегти операцію з вантажем</button>
+            </div>
+        </mat-step>
+    </mat-horizontal-stepper>
+</mat-card>
+
+
+    </div>
+            
+</div>
