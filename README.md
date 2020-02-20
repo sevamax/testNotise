@@ -6,4 +6,4 @@ Step 3 Use command in your terminal  npm install -g @angular/cli
 
 Step 4 Use command in your terminal npm install
 
-Step 5 Use command in your terminal ng serve --o to open https://localhost:4200
+Step 5 Use command in your terminal ng serve --o
