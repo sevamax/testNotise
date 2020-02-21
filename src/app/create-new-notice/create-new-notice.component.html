@@ -1,13 +1,14 @@
 <div class="wrapper">
-    <div class="content">
-        <div class="header">
-            <div class="header_grp">
-                <h1 class="header_h1">Нотiс</h1>
-                <h3 class="header_h3"><a>Агент</a> &gt; <a [routerLink]="['/']" >Нотiс</a> &gt; Редагування документа</h3>
+    <div class="header">
+        <div class="header_grp">
+            <h1 class="header_h1">Нотiс</h1>
+            <h3 class="header_h3"><a>Агент</a> &gt; <a [routerLink]="['/']" >Нотiс</a> &gt; Редагування документа</h3>
 
-            </div>
-            
         </div>
+        
+    </div>
+    <div class="content">
+
 
 <mat-card class="main">
     <mat-card-title class="newOne">Деталі судна</mat-card-title>
@@ -302,8 +303,64 @@
         </mat-step>
     </mat-horizontal-stepper>
 </mat-card>
+    <mat-card class="main item" >
+        <div>
+         <mat-card-title class="newOne" >Підтвердження портового оператора про готовність до обробки судна </mat-card-title>
+            <mat-card-actions align="end" class="newOne card-action-addTerm card-action-addTermFloat" >
+             <button mat-raised-button class="btn_add" (click)="addDocument()">Додати документ</button>
+            </mat-card-actions>
+        </div>
+        <mat-card-content class="card-content-margin">
+            <mat-table [dataSource]="dataSource3" class="mat-elevation-z8">
+                <!-- pkDocument Column -->
+                <ng-container matColumnDef="pkDocument">
+                  <mat-header-cell  *matHeaderCellDef>РК документа</mat-header-cell>
+                  <mat-cell *matCellDef="let element"> {{element.pkDocument}} </mat-cell>
+                </ng-container>
+              
+                <!-- nameOfDocument Column -->
+                <ng-container matColumnDef="nameOfDocument">
+                  <mat-header-cell *matHeaderCellDef> Найменування документа </mat-header-cell>
+                  <mat-cell *matCellDef="let element"> {{element.nameOfDocument}}
+                    <button  mat-icon-button  style="color: #09f; " class="miniIcons">
+                        <i class="material-icons"> cloud_download </i>
+                   </button>      
+                </mat-cell>
+                </ng-container>
+              
+                <!-- nameOfCargo Column -->
+                <ng-container matColumnDef="dateOfDownload">
+                  <mat-header-cell *matHeaderCellDef> Дата та час завантаження </mat-header-cell>
+                  <mat-cell *matCellDef="let element"> {{element.dateOfDownload}} </mat-cell>
+                </ng-container>
+                
+                <ng-container matColumnDef="editDelete">
+                    <mat-header-cell *matHeaderCellDef></mat-header-cell>
+                    <mat-cell *matCellDef="let element"> 
+                    <button (click)="openDialogDelete()" mat-icon-button  style="color: #f00; " class="miniIcons">
+                         <i class="material-icons"> delete </i>
+                    </button>
+                    </mat-cell>
+                </ng-container>
 
-
+                <mat-header-row style="border-top: 0" *matHeaderRowDef="displayedColumns3"></mat-header-row>
+                <mat-row *matRowDef="let row; columns: displayedColumns3;"></mat-row>
+              </mat-table>
+              <mat-paginator  [pageSizeOptions] = "[5, 10, 20]" ></mat-paginator>
+      
+        </mat-card-content>     
+    </mat-card>
+    <div class="btn-group2">
+        <a [routerLink]="['/']" >
+            <button mat-raised-button class="btn_add btn_addW" (click)="saveDocument()" >Зберегти документ</button>
+        </a>
+        <a [routerLink]="['/']" >
+            <button mat-button class="btn_add" >Зберегти та завершити подачу документів</button>
+        </a> 
+        <a [routerLink]="['/']" >
+            <button mat-raised-button class="btn_add btn_addW btn_float" >Назад</button>
+        </a> 
     </div>
+</div>
             
 </div>
