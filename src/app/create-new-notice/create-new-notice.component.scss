@@ -5,6 +5,10 @@ body {
 //     // text-decoration: none;
 //     // color: #fff;
 // }
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 ul{
     list-style: none;
 }
@@ -117,6 +121,9 @@ mat-card-content {
     padding-bottom: 0;
     position: relative;
     
+}
+.card-content-margin {
+    margin-top: 30px;
 }
 mat-card-title {
     margin-top: 10px;
@@ -283,7 +290,52 @@ mat-label {
     -webkit-hyphens: auto;
     hyphens: auto;
   }
-
+//document
+  .mat-column-pkDocument  {
+    word-wrap: break-word !important;
+    white-space: unset !important;
+    flex: 0 0 32% !important;
+    width: 32% !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  
+    word-break: break-word;
+  
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  .mat-column-nameOfDocument  {
+    word-wrap: break-word !important;
+    white-space: unset !important;
+    flex: 0 0 32% !important;
+    width: 32% !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  
+    word-break: break-word;
+  
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  .mat-column-dateOfDownload  {
+    word-wrap: break-word !important;
+    white-space: unset !important;
+    flex: 0 0 30% !important;
+    width: 30% !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  
+    word-break: break-word;
+  
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
 
 .typeOfDeclare {
     font-size: 17px;
@@ -316,10 +368,15 @@ mat-slide-toggle {
 }
 
 .btn-group {
-    float: left;
+    // float: left;
     margin-top: 20px;
+    margin-bottom: 20px;
     &WM {
         margin-top: 0;
+    }
+    &2 {
+        margin-top: 75px;
+        margin-bottom: 20px;
     }
 }
 mat-paginator {
@@ -329,6 +386,12 @@ mat-paginator {
     margin-top: -10px;
 }
 
+// .item {
+//     display: none;
+// }
+.btn_float {
+    float: right;
+} 
 @media (max-width: 865px) {
     mat-slide-toggle {
         float: left;
@@ -440,4 +503,9 @@ mat-paginator {
       ng-container button.miniIcons.mat-icon-button.mat-button-base {
           width: 23px !important;
       }
+  }
+@media (max-width: 1050px) {
+    .card-action-addTermFloat {
+        float: none;
+    }
   }
