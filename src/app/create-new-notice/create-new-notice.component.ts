@@ -11,6 +11,7 @@ export interface ListOfPositionShips {
   dateOfCome: string;
   dateOfExit: string;
   editDelete: string;
+  
 }
 export interface ListOfOperation {
   position: number;
